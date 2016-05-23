@@ -1,0 +1,6 @@
+<h1>RailsBridgeCorp Open Jobs</h1>
+
+<% Job.all.each do |job| %>
+	<h5><%= job.title %></h5>
+	<i><%= job.description %></i>
+	<% end %>
